@@ -114,15 +114,15 @@ textarea:focus, input:focus, select:focus, a:focus, button:focus {
 }
 
 .card {
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   width: 200px;
-  height: 250px;
-  transform: translate(-50%, -50%);
-  border-radius: 16px;
+  height: 250px; */
+  /* transform: translate(-50%, -50%); */
+  /* border-radius: 16px; */
   overflow: hidden;
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -1531,6 +1531,15 @@ Pricing section End
 .pricing-heading {
     margin-bottom: 55px;
 }
+.pricing_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 100%;
+}
+.pricing_container .secondCard {
+	margin-left: 18px;
+}
 .pricing-heading h1{
 	color: #000;
 	display: block;
@@ -1561,6 +1570,7 @@ Pricing section End
 	margin: 22px 0;
 	max-width: 400px;
 	border-radius: 4px;
+	min-height: 600px;
 }
 
 .pricing-single-box h5 {
@@ -1570,7 +1580,7 @@ Pricing section End
 
 .pricing-single-box .pricing-single-box-header {
 	background-color: #000;
-    padding: 30px 10px;
+    padding: 32px 10px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	text-align: center;
@@ -1590,6 +1600,8 @@ Pricing section End
     font-size: 35px; */
     margin-bottom: 25px;
 	color: #fff;
+	font-weight: 550;
+
 }
 .pricing-single-box h5 {
     /* font-weight: 700;
@@ -1602,7 +1614,7 @@ Pricing section End
     /* margin: 40px 0; */
 	list-style: square;
 	list-style: inside;
-	padding: 1.2rem 1.2rem;
+	padding: 1.8rem 1.2rem;
 	line-height: 25px;
 }
 
@@ -1628,7 +1640,55 @@ Pricing section End
     margin-left: 8px;
 }
 
+@media screen and (max-width: 768px) {
+	.pricing_container{	
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.pricing_container .secondCard {
+	margin-left: 0px;
+}
+}
 
+/* REGISTER MODAL START */	
+.registerForm .form-group label {
+	font-weight: 400;
+	color: #747474;
+	margin-bottom: 4px;
+}
+
+.registerForm .checkbox  {
+	margin-bottom: 12px;
+}
+
+.registerForm .checkbox input {
+	margin-top: 5.2px;
+}
+
+.registerForm .checkbox label {
+	color: #747474;
+font-size: 1.3rem;
+margin-top: -5px;
+}
+
+.registerForm .form-group input:focus,
+.registerForm .form-group textarea:focus {
+	border: 1px solid #ccc;
+}
+
+.registerForm .btn.submitBtn {
+	color: #ffff;
+	background-color: #007bff;
+}
+
+@media (min-width: 768px){
+.modal-dialog {
+    width: 500px;
+    margin: 30px auto;
+}}
+/* REGISTER MODAL END */
 
 
 /*faq start*/
@@ -1863,7 +1923,7 @@ Pricing section End
     color: #fff;
     /* padding: 40px; */
 	margin: 22px 0;
-	max-width: 380px;
+	max-width: 400px;
 	box-shadow: 1px 1px 8px #ccc;
 	border-radius: 5px;
 }
@@ -5278,6 +5338,7 @@ animaction
     font-weight: 600;
 }
   }
+
 
 
 
