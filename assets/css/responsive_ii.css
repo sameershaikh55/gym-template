@@ -1,0 +1,693 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .trainer_box:before{
+        top: -10px;
+    }
+    .trainer_con h3 {
+        font-size: 24px;
+        line-height: 18px;
+    }
+    .partners {
+        padding: 20px 0;
+    }
+    .partner-heading h2::after {
+        width: 0;
+    }
+    .partner-heading h2 {
+        margin-top: 50px;
+    }
+    .gym-about {
+        padding: 20px 0;
+    }
+    .about-content p {
+        padding: 15px 5px;
+    }
+    .about-photo {
+        margin: 33px 0 0px 0;
+    }
+    .pricing {
+        padding: 20px 0;
+    }
+    .pricing-single-box {
+        margin: 38px auto !important;
+    }
+    .pricing-single-box h2 {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+    .pricing-single-box h3 {
+        font-size: 35px;
+        margin-bottom: 9px;
+    }
+    .pricing-single-box ul {
+        margin: 30px 0;
+    }
+    .pricing-single-box a {
+        padding: 7px 29px;;
+    }
+    .pricing-heading h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .pricing-heading h2 {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }.blog_box:before{
+    }
+    .pricing-heading h1::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        height: 102px;
+        left: -20px;
+        top: -15px;
+        width: 100px;
+    }
+    .pricing-heading {
+        margin-bottom: 0px;
+    }
+    .comingsoon-title h1 {
+        font-size: 40px;
+    }
+    .comingsoon-title h1::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        height: 102px;
+        left: 21px;
+        top: -15px;
+        width: 100px;
+    }
+    .comingsoon-title h2 {
+        font-size: 24px;
+    }
+    .comingsoon-title {
+        padding: 70px 0px;
+    }
+    .trainer_box:before{
+    }
+    .conatct-us {
+        position: static;
+        width: 100%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .trainer_box:before{
+        top: -10px;
+    }
+    .trainer_con h3 {
+        font-size: 24px;
+        line-height: 18px;
+    }
+    .partners {
+        padding: 20px 0;
+    }
+    .partner-heading h2::after {
+        width: 0;
+    }
+    .partner-heading h2 {
+        margin-top: 50px;
+    }
+    .gym-about {
+        padding: 20px 0;
+    }
+    .about-content p {
+        padding: 15px 5px;
+    }
+    .about-photo {
+        margin: 33px 0 0px 0;
+    }
+    .pricing {
+        padding: 20px 0;
+    }
+    .pricing-single-box {
+        margin: 38px auto !important;
+    }
+    .pricing-single-box h2 {
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+    .pricing-single-box h3 {
+        font-size: 35px;
+        margin-bottom: 9px;
+    }
+    .pricing-single-box ul {
+        margin: 30px 0;
+    }
+    .pricing-single-box a {
+        padding: 7px 29px;;
+    }
+    .pricing-heading h1 {
+        font-size: 40px;
+        margin-bottom: 22px;
+    }
+    .pricing-heading h2 {
+        font-size: 24px;
+    }
+    .pricing-heading h1::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        height: 102px;
+        left: -20px;
+        top: -15px;
+        width: 100px;
+    }
+    .pricing-heading {
+        margin-bottom: 35px;
+    }
+    .blog_box:before{
+    }
+    .comingsoon-title h1 {
+        font-size: 40px;
+    }
+    .comingsoon-title h1::before {
+        background: url(../images/title-bg2.png) no-repeat;
+        height: 102px;
+        left: 84px;
+        top: -19px;
+        width: 100px;
+    }
+    .comingsoon-title h2 {
+        font-size: 24px;
+    }
+    .comingsoon-title {
+        padding: 70px 0px;
+    }
+    .course_box1:before{
+    }
+    #slider3 .owl-next,#slider3 .owl-prev{
+        display: none;
+    }
+    .trainer_box:before{
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .trainer_con h3 {
+        font-size: 27px;
+    }
+    .partner-heading h2::after{
+        display: none;
+    }
+    .pricing-single-box {
+        margin: 38px auto !important;
+    }
+    .pricing-heading h1 {
+        font-size: 65px;
+    }
+    .pricing-heading h1::before {
+        background: url(../images/title-bg1.png) no-repeat;
+        height: 191px;
+        left: -24px;
+        top: -16px;
+        width: 189px;
+    }
+    .comingsoon-title h1 {
+        font-size: 65px;
+    }
+    .comingsoon-title h1::before {
+        background: url(../images/title-bg1.png) no-repeat;
+        height: 191px;
+        left: 76px;
+        top: -24px;
+        width: 189px;
+    }
+    .comingsoon-title h2 {
+        font-size: 28px;
+    }
+    .comingsoon-title {
+        padding: 90px 0px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 999.98px) {
+    .trainer_box:before {
+        height: 130px;
+        left: 55px;
+        top: -5px;
+    }
+    .about-content p {
+        padding: 0px 19px;
+        font-size: 14px;
+    }
+    .pricing-heading h1 {
+        font-size: 65px;
+    }
+    .pricing-heading h1::before {
+        background: url(../images/title-bg1.png) no-repeat;
+        height: 191px;
+        left: -24px;
+        top: -16px;
+        width: 189px;
+    }
+    .comingsoon-title h1 {
+        font-size: 65px;
+    }
+    .comingsoon-title h1::before {
+        background: url(../images/title-bg1.png) no-repeat;
+        height: 191px;
+        left: 100px;
+        top: -24px;
+        width: 189px;
+    }
+    .comingsoon-title h2 {
+        font-size: 28px;
+    }
+    .comingsoon-title {
+        padding: 127px 80px;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1199.98px) {
+    .trainer_box:before {
+        height: 108px;
+        left: 43px;
+        top: -2px;
+    }
+    .about-content p {
+        padding: 0px 19px;
+        font-size: 14px;
+    }
+    #slider3 .owl-prev {
+        left: 89%;
+    }
+    .pricing-heading h1 {
+        font-size: 65px;
+    }
+    .pricing-heading h1::before {
+        background: url(../images/title-bg1.png) no-repeat;
+        height: 191px;
+        left: -24px;
+        top: -16px;
+        width: 189px;
+    }
+    .comingsoon-title h1 {
+        font-size: 65px;
+    }
+    .comingsoon-title h1::before {
+        background: url(../images/title-bg1.png) no-repeat;
+        height: 191px;
+        left: 100px;
+        top: -24px;
+        width: 189px;
+    }
+    .comingsoon-title h2 {
+        font-size: 28px;
+    }
+    .comingsoon-title {
+        padding: 127px 80px;
+    }
+   
+
+
+
+
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .trainer_box:before {
+        left: 52px;
+        top: 3px;
+    }
+    .comingsoon-title {
+        padding: 134px 25px;
+    }
+    .course_box1:before {
+        left: 57px;
+        top: -4px;
+    }
+    .blog_box:before {
+        left: 38px;
+        top: -11px;
+    }
+}
+
+
+@media (max-width: 1250px){
+    .course_box1:before {
+        left: 54px;
+        top: -7px;
+    }
+}
+@media (max-width: 1300px){
+    .course_box1:before {
+        left: 48px;
+        top: -10px;
+    }
+}
+@media (max-width: 500.98px){
+    .course_box1:before {
+        left: 60px;
+    top: -27px;
+    }
+}
+@media (max-width: 450.98px){
+    .course_box1:before {
+        left: 46px;
+    top: -20px;
+    }
+}
+@media (max-width: 400.98px){
+    .course_box1:before {
+        left: 50px;
+        top: -20px;
+    }
+}
+@media (max-width: 380.98px){
+    .course_box1:before {
+        left: 45px;
+    top: -20px;
+    }
+    
+}
+@media (max-width: 350.98px){
+    .course_box1:before {
+        left: 41px;
+        top: -24px;
+    }
+}
+@media (min-width: 320px){
+    .blog_box:before {
+        height: 81px;
+        left: 26px;
+        top: -9px;
+    }
+}
+@media (min-width: 340.98px){
+    .trainer_box:before {
+        top: -5px;
+    }
+    .course_box1:before {
+        left: 44px;
+        top: -22px;
+    }
+    .blog_box:before {
+        height: 81px;
+        left: 29px;
+        top: -9px;
+    }
+}
+@media (min-width: 369.98px){
+    .trainer_box:before {
+        top: 0px;
+    }
+    .blog_box:before {
+        left: 31px;
+        top: -6px;
+    }
+}
+@media (min-width: 380px){
+    .course_box1:before {
+        left: 49px;
+        top: -20px;
+    }
+}
+@media (min-width: 390.98px){
+    .trainer_box:before {
+        top: 3px;
+    }
+}
+@media (min-width: 409.98px){
+    .trainer_box:before {
+        top: 2px;
+        left: 48px;
+    }
+    .course_box1:before {
+        left: 52px;
+        top: -16px;
+    }
+}
+@media (min-width: 414px){
+    .blog_box:before {
+        left: 44px;
+        top: 7px;
+    }
+}
+@media (min-width: 419.98px){
+    .trainer_box:before {
+        top: -4px;
+        left: 48px;
+    }
+    .course_box1:before {
+        left: 48px;
+        top: -18px;
+    }
+}
+@media (min-width: 439.98px){
+    .trainer_box:before {
+        top: -1px;
+    left: 48px;
+    }
+    .course_box1:before {
+        left: 58px;
+        top: -23px;
+    }
+    .blog_box:before {
+        left: 47px;
+        top: 9px;
+    }
+}
+@media (min-width: 464.98px){
+    .trainer_box:before {
+        top: -1px;
+    left: 48px;
+    }
+    .blog_box:before {
+        left: 48px;
+        top: 2px;
+        height: 101px;
+    }
+}
+@media (min-width: 469.98px){
+    .trainer_box:before {
+        top: 1px;
+    left: 48px;
+    }
+    .course_box1:before {
+        left: 66px;
+        top: -27px;
+    }
+}
+@media (min-width: 480.98px){
+    .trainer_box:before {
+        top: 4px;
+        left: 49px;
+    }
+}
+@media (min-width: 481px){
+    .course_box1:before {
+        left: 43px;
+        top: -32px;
+    }
+}
+@media (min-width: 481px){
+    .blog_box:before {
+        left: 51px;
+        top: 4px;
+        height: 101px;
+    }
+}
+@media (min-width: 509.98px){
+    .trainer_box:before {
+        top: 10px;
+    left: 52px;
+    }
+    .course_box1:before {
+        left: 46px;
+        top: -30px;
+    }
+    .blog_box:before {
+        left: 53px;
+        top: 3px;
+        height: 107px;
+    }
+}
+@media (min-width: 539.98px){
+    .trainer_box:before {
+        top: 12px;
+        left: 55px;
+    }
+    .blog_box:before {
+        left: 55px;
+        top: 3px;
+        height: 115px;
+    }
+}
+@media (min-width: 559.98px){
+    .trainer_box:before {
+        top: 14px;
+    left: 57px;
+    }
+    .course_box1:before {
+        left: 50px;
+        top: -30px;
+    }
+    .blog_box:before {
+        left: 57px;
+        top: 2px;
+        height: 121px;
+    }
+}
+@media (min-width: 589.98px){
+    .trainer_box:before {
+        top: 13px;
+    left: 63px;
+    }
+}
+@media (min-width: 600px){
+    .trainer_box:before {
+        top: -3px;
+        left: 34px;
+    }
+    .course_box1:before {
+        left: 50px;
+        top: -25px;
+    }
+    .blog_box:before {
+        left: 32px;
+        top: -6px;
+        height: 96px;
+    }
+}
+@media (min-width: 650px){
+    .trainer_box:before {
+        top: -1px;
+    left: 37px;
+    }
+    .course_box1:before {
+        left: 52px;
+        top: -24px;
+    }
+    .blog_box:before {
+        left: 37px;
+        top: -4px;
+        height: 96px;
+    }
+}
+@media (min-width: 670px){
+    .blog_box:before {
+        left: 34px;
+        top: -7px;
+        height: 96px;
+    }
+}
+@media (min-width: 700px){
+    .trainer_box:before {
+        top: 1px;
+        left: 40px;
+    }
+    .course_box1:before {
+        left: 55px;
+        top: -21px;
+    }
+}
+@media (min-width: 737px){
+    .blog_box:before {
+        left: 40px;
+        top: 0px;
+        height: 96px;
+    }
+}
+@media (min-width: 760px){
+    .trainer_box:before {
+        top: 4px;
+    left: 40px;
+    }
+}
+@media (min-width: 768px){
+    .trainer_box:before {
+        top: 0px;
+        left: 43px;
+    }
+    .course_box1:before {
+        left: 53px;
+        top: -11px;
+    }
+    .blog_box:before {
+        left: 34px;
+        top: -8px;
+    }
+}
+@media (min-width: 992px){
+    .course_box1:before {
+        left: 50px;
+        top: -18px;
+    }
+    .blog_box:before {
+        left: 41px;
+        top: -6px;
+        height: 111px;
+    }
+}
+@media (min-width: 1000px){
+    .trainer_box:before {
+        top: -6px;
+    left: 43px;
+    }
+}
+@media (min-width: 1024px){
+    .trainer_box:before {
+        top: -2px;
+    left: 46px;
+    }
+    .course_box1:before {
+        left: 50px;
+        top: -11px;
+    }
+    .blog_box:before {
+        left: 32px;
+        top: -25px;
+        height: 104px;
+    }
+    
+}
+@media (min-width: 1200px){
+    .trainer_box:before {
+        top: 3px;
+        left: 52px;
+    }
+    .course_box1:before {
+        left: 53px;
+        top: -5px;
+    }
+    .blog_box:before {
+        left: 35px;
+        top: -20px;
+        height: 104px;
+    }
+}
+@media (min-width: 1280px){
+    .trainer_box:before {
+        top: -3px;
+    left: 46px;
+    }
+    .course_box1:before {
+        left: 48px;
+        top: -9px;
+    }
+    .blog_box:before {
+        left: 29px;
+        top: -23px;
+    }
+}
+@media (min-width: 1300px){
+    .course_box1:before {
+        left: 48px;
+        top: -15px;
+    }
+}
+@media (min-width: 1366px){
+    .blog_box:before {
+        left: 39px;
+        top: -20px;
+        height: 104px;
+    }
+}
+@media (min-width: 1400px){
+    .course_box1:before {
+        left: 51px;
+    top: -10px;
+    }
+}
