@@ -1,478 +1,509 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GymFit-Membership</title>
-    <link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-      </script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GymFit-Membership</title>
+  <link type="image/x-icon" rel="shortcut icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+</head>
 
-  <body>
-    <!-- Modal -->
-    <div id="registerModal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
+<body>
+  <!-- Modal -->
+  <div id="registerModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
 
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-body">
-            <form class="registerForm">
-              <div class="form-group">
-                <label for="usr">Name:</label>
-                <input type="text" class="form-control" id="usr" placeholder="Enter Your Name">
-              </div>
-              <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="text" class="form-control" id="pwd" placeholder="Enter Your Club Name">
-              </div>
-              <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="email" class="form-control" id="pwd" placeholder="Enter Your Email">
-              </div>
-              <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="number" class="form-control" id="pwd" placeholder="Enter Your Phone No">
-              </div>
-              <div class="form-group">
-                <label for="comment">Your Message:</label>
-                <textarea class="form-control" rows="10" id="comment"></textarea>
-              </div>
-              <div class="checkbox">
-                <label><input type="checkbox" value="">I aggree to T&C</label>
-              </div>
-              <button type="button" class="btn submitBtn">Submit</button>
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+          <form class="registerForm">
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="text" class="form-control" id="pwd" placeholder="Enter Your Club Name">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="email" class="form-control" id="pwd" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="number" class="form-control" id="pwd" placeholder="Enter Your Phone No">
+            </div>
+            <div class="form-group">
+              <label for="comment">Your Message:</label>
+              <textarea class="form-control" rows="10" id="comment"></textarea>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">I aggree to T&C</label>
+            </div>
+            <button type="button" class="btn submitBtn">Submit</button>
 
-            </form>
-          </div>
+          </form>
         </div>
-
       </div>
+
     </div>
-    <!-- modal -->
+  </div>
+  <!-- modal -->
 
 
-    <div class="page-wrapper blogpage3">
+  <div class="page-wrapper blogpage3">
 
-      <!-- header start-->
-      <header class="main-header">
-        <div class="header-top">
-          <div class="container clearfix">
-            <div class="top-left pull-left clearfix">
-              <div class="phone pull-left"><a href="#/index.html"><i class="fa fa-volume-control-phone"
-                    aria-hidden="true"></i>123 1234 123</a></div>
-              <div class="email pull-left"><a href="mailto:Fetness@yourdomain.com/index.html"><i class="fa fa-envelope"
-                    aria-hidden="true"></i>Fitness@yourdomain.com</a></div>
-            </div>
-            <div class="top-right pull-right clearfix">
-              <div class="social"><span class="txt"> Follow on </span><a class="circlef" href="#/index.html"><i
-                    class="fa fa-facebook-f"></i></a><a class="circlei" href="#/index.html"><i
-                    class="fa fa-twitter"></i></a>
-              </div>
+    <!-- header start-->
+    <header class="main-header">
+      <div class="header-top">
+        <div class="container clearfix">
+          <div class="top-left pull-left clearfix">
+            <div class="phone pull-left"><a href="#/index.html"><i class="fa fa-volume-control-phone"
+                  aria-hidden="true"></i>123 1234 123</a></div>
+            <div class="email pull-left"><a href="mailto:Fetness@yourdomain.com/index.html"><i class="fa fa-envelope"
+                  aria-hidden="true"></i>Fitness@yourdomain.com</a></div>
+          </div>
+          <div class="top-right pull-right clearfix">
+            <div class="social"><span class="txt"> Follow on </span><a class="circlef" href="#/index.html"><i
+                  class="fa fa-facebook-f"></i></a><a class="circlei" href="#/index.html"><i
+                  class="fa fa-twitter"></i></a>
             </div>
           </div>
         </div>
-        <div class="header-lower">
-          <div class="container clearfix">
-            <div class="logo pull-left"><a href="index.html">
-                <h2 class="logo_name">GYM <span class="white_text">FIT </span> </h2>
-              </a></div>
-            <div class="right-cont clearfix">
-              <nav class="main-menu">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-                  </button>
-                </div>
-                <div class="navbar-collapse collapse clearfix">
-                  <ul class="nav navbar-nav navbar-right  ml-auto" id="onenav">
-                    <li class="nav-link"><a href="index.html" class="js-scroll-trigger">HOME</a> </li>
-                    <li class="nav-link"><a href="about.html" class="js-scroll-trigger">ABOUT US</a> </li>
-                    <li class="nav-link"><a href="wushu.html" class="js-scroll-trigger">WUSHU</a></li>
-                    <li class="nav-link current"><a href="membership.html" class="js-scroll-trigger">MEMBERSHIP</a></li>
-                    <li class="nav-link"><a href="multimedia.html" class="js-scroll-trigger">MULTIMEDIA</a></li>
-                    <li class="nav-link"><a href="blogpage.html" class="js-scroll-trigger">NEWS</a></li>
-                    <li class="nav-link"><a href="courses.html" class="js-scroll-trigger">COURSES</a></li>
-                    <li class="nav-link"><a href="schedule.html" class="js-scroll-trigger">SCHEDULE</a></li>
-                    <li class="nav-link "><a href="contact.html" class="js-scroll-trigger">CONTACT US</a></li>
-                    <li class="social_nav">
-                      <div class="social"><span class="txt"> Follow on </span><a class="circlef" href="#/index.html"><i
-                            class="fa fa-facebook-f"></i></a><a class="circlei" href="#/index.html"><i
-                            class="fa fa-instagram"></i></a>
-                      </div>
-                    </li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- header end-->
-
-      <!-- Page_banner start -->
-      <section class="breadcrumb_sec" style="background-image:url(assets/images/contact_bg.jpg);">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="title_box_page">
-                <div class="page_banner_img"> <img class="img-responsive wow fadeInLeft animated img_animate"
-                    src="assets/images/title-bg.png" alt> </div>
-                <div class="page_banner_title">
-                  <h2 class="wow fadeInUp animated title_animate">MEMBERSHIP</h2>
-                  <p class="wow fadeInUp animated titlep_animate">BUILDING A COMMUNITY OF ATHLETIC WOMEN</p>
-                </div>
+      </div>
+      <div class="header-lower">
+        <div class="container clearfix">
+          <div class="logo pull-left"><a href="index.html">
+              <h2 class="logo_name">GYM <span class="white_text">FIT </span> </h2>
+            </a></div>
+          <div class="right-cont clearfix">
+            <nav class="main-menu">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Page_banner end -->
-
-      <!-- Pricing start -->
-      <section class="pricing pricing-member" id="pricing">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="membership-page-title title text-center">
-                <h1>pricing tiers and benefits
-                  <hr>
-                </h1>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam expedita eos. Accusamus amet
-                  accusantium ducimus iure aut expedita et.</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row pricing_container no-gutters">
-            <div class="col-md-4 no-padding">
-              <div class="pricing-single-box">
-                <div class="pricing-single-box-header">
-                  <h4>Basic Participant Club Or Event Organizer Membership</h4>
-                  <h5>$100.00/year</h5>
-                  <p class="small">From detail of official organization</p>
-                  <button type="button" data-toggle="modal" data-target="#registerModal" class="text-uppercase">register</button>
-                  </div>
-                  <ul>
-                    <li class="small">
-                      Lorem ipsum dolor sit amet, consectetur
-                    </li>
-                    <li class="small">
-                      Lorem ipsum dolor sit
-                    </li>
-                    <li class="small">
-                    Lorem ipsum dolor sit
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit amet, consectetur Lorem.
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit amet,
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit amet, consectetur Lorem, ipsum.
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li class="small">
-                    Lorem ipsum dolor sit consectetur
+              <div class="navbar-collapse collapse clearfix">
+                <ul class="nav navbar-nav navbar-right  ml-auto" id="onenav">
+                  <li class="nav-link"><a href="index.html" class="js-scroll-trigger">HOME</a> </li>
+                  <li class="nav-link"><a href="about.html" class="js-scroll-trigger">ABOUT US</a> </li>
+                  <li class="nav-link"><a href="wushu.html" class="js-scroll-trigger">WUSHU</a></li>
+                  <li class="nav-link current"><a href="membership.html" class="js-scroll-trigger">MEMBERSHIP</a></li>
+                  <li class="nav-link"><a href="multimedia.html" class="js-scroll-trigger">MULTIMEDIA</a></li>
+                  <li class="nav-link"><a href="blogpage.html" class="js-scroll-trigger">NEWS</a></li>
+                  <li class="nav-link"><a href="courses.html" class="js-scroll-trigger">COURSES</a></li>
+                  <li class="nav-link"><a href="schedule.html" class="js-scroll-trigger">SCHEDULE</a></li>
+                  <li class="nav-link "><a href="contact.html" class="js-scroll-trigger">CONTACT US</a></li>
+                  <li class="social_nav">
+                    <div class="social"><span class="txt"> Follow on </span><a class="circlef" href="#/index.html"><i
+                          class="fa fa-facebook-f"></i></a><a class="circlei" href="#/index.html"><i
+                          class="fa fa-instagram"></i></a>
+                    </div>
                   </li>
                 </ul>
+                <div class="clearfix"></div>
               </div>
-              </div>
-            <div class="col-md-4 secondCard no-padding">
-              <div class="pricing-single-box">
-                <div class="pricing-single-box-header">
-                  <h4>Basic Participant Club Or Event Organizer Membership</h4>
-                  <h5>$100.00/year</h5>
-                  <p class="small">From detail of official organization</p>
-                  <button type="button" data-toggle="modal" data-target="#registerModal" class="text-uppercase">register</button>
-                  </div>
-                  <ul>
-                    <li>
-                      Lorem ipsum dolor sit amet, consectetur
-                    </li>
-                    <li>
-                    Lorem ipsum dolor sit amet, consectetur
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur Lorem.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet,
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur Lorem, ipsum.
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  <li>
-                    Lorem ipsum dolor sit consectetur
-                  </li>
-                  </ul>
-                  </div>
-                  </div>
-                  </div>
-                  </div>
-                  </section>
-                  <!-- Pricing end -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end-->
 
-      <!-- faq strat -->
-      <section class="faq-sec">
-        <div class="container" style="padding-bottom: 65px!important;">
-          <!-- 1st row -->
-          <div class="row">
-            <div class="col-md-12">
-              <div class="membership-page-title text-center">
-                <h1>frequently ask questions
-                  <hr>
-                </h1>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <!-- Page_banner start -->
+    <section class="breadcrumb_sec" style="background-image:url(assets/images/contact_bg.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title_box_page">
+              <div class="page_banner_img"> <img class="img-responsive wow fadeInLeft animated img_animate"
+                  src="assets/images/title-bg.png" alt> </div>
+              <div class="page_banner_title">
+                <h2 class="wow fadeInUp animated title_animate">MEMBERSHIP</h2>
+                <p class="wow fadeInUp animated titlep_animate">BUILDING A COMMUNITY OF ATHLETIC WOMEN</p>
               </div>
             </div>
           </div>
-          <!-- 1st row -->
-          <!-- 2nd row -->
-          <div class="row">
-            <div class="col-md-6">
-              <div class="faq">
-                <!-- faq start -->
-                <div class="accordian">
-                  <div class="card">
-                    <div class="card-header">
-                      <h3>What is Lorem Ipsum? </h3>
-                      <span class="fa fa-minus"></span>
-                    </div>
-                    <div class="card-body active">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
-                        amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                    </div>
-                  </div>
+        </div>
+      </div>
+    </section>
+    <!-- Page_banner end -->
 
-                  <div class="card">
-                    <div class="card-header">
-                      <h3>Where does it come from? </h3>
-                      <span class="fa fa-plus"></span>
-                    </div>
-                    <div class="card-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
-                        amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <h3>Where can I get some? </h3>
-                      <span class="fa fa-plus"></span>
-                    </div>
-                    <div class="card-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
-                        amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- faq end -->
-                </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="faq">
-                    <!-- faq start -->
-                    <div class="accordian">
-                      <div class="card card_two">
-                        <div class="card-header">
-                          <h3>What is Lorem Ipsum? </h3>
-                      <span class="fa fa-plus"></span>
-                    </div>
-                    <div class="card-body active">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
-                        amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                    </div>
-                    </div>
-
-                  <div class="card card_two">
-                    <div class="card-header">
-                      <h3>Where does it come from? </h3>
-                      <span class="fa fa-plus"></span>
-                    </div>
-                    <div class="card-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
-                        amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                    </div>
-                  </div>
-                  <div class="card card_two">
-                    <div class="card-header">
-                      <h3>Where can I get some? </h3>
-                      <span class="fa fa-plus"></span>
-                    </div>
-                    <div class="card-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
-                        amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- faq end -->
-                </div>
-                </div>
-                </div>
-                <!-- 2nd row -->
-                </div>
-                </section>
-                <!-- faq end -->
-                <!--footer start-->
-                <footer class="main-footer">
-                  <div class="footer">
-                    <div class="container">
-                      <div class="slide-top footer-logo"> <a href="index.html">
-                          <h2 class="logo_name">GYM <span class="white_text">FIT </span> </h2>
-                        </a> </div>
-                      <div class="slide-bottom footer-menu">
-                        <ul class="nav-menu">
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="about.html">About us</a></li>
-                          <li><a href="courses.html">COURSES</a></li>
-                          <li><a href="shedule.html">schedule </a></li>
-                          <li><a href="blogpage.html">Blog</a></li>
-                          <li><a href="contact.html">contact us</a></li>
-                        </ul>
-                      </div>
-                      <div class="slide-bottom footer-mail">
-                        <form>
-                          <input type="email" name="mail" required placeholder="ENTER YOUR EMAIL">
-                          <input name="submit" class="submit_icon" type="submit" value>
-                        </form>
-                      </div>
-                      <div class="slide-bottom social footer-social"> <span>Follow us on</span>
-                        <ul>
-                          <li class="faebook"><a href="javascript:void(0);/index.html" target="_blank"><i
-                                class="fa fa-facebook"></i></a></li>
-                          <li class="twitter"><a href="javascript:void(0);/index.html" target="_blank"><i class="fa fa-twitter"
-                                aria-hidden="true"></i></a></li>
-                          <li class="insta"><a href="javascript:void(0);/index.html" target="_blank"><i
-                      class="fa fa-instagram"></i></a>
+    <!-- Pricing start -->
+    <section class="pricing pricing-member" id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="membership-page-title title text-center">
+              <h1>pricing tiers and benefits
+                <hr>
+              </h1>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam expedita eos. Accusamus amet
+                accusantium ducimus iure aut expedita et.</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row pricing_container no-gutters">
+          <div class="col-md-4 no-padding">
+            <div class="pricing-single-box">
+              <div class="pricing-single-box-header">
+                <h4>Basic Participant Club Or Event Organizer Membership</h4>
+                <h5>$100.00/year</h5>
+                <p class="small">From detail of official organization</p>
+                <button type="button" data-toggle="modal" data-target="#registerModal"
+                  class="text-uppercase">register</button>
+              </div>
+              <ul>
+                <li class="small">
+                  Lorem ipsum dolor sit amet, consectetur
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit amet, consectetur Lorem.
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit amet,
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit amet, consectetur Lorem, ipsum.
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li class="small">
+                  Lorem ipsum dolor sit consectetur
                 </li>
               </ul>
             </div>
-            <div class="slide-bottom copyright-text">
-              <p>© All Rights Reserved</p>
+          </div>
+          <div class="col-md-4 secondCard no-padding">
+            <div class="pricing-single-box">
+              <div class="pricing-single-box-header">
+                <h4>Basic Participant Club Or Event Organizer Membership</h4>
+                <h5>$100.00/year</h5>
+                <p class="small">From detail of official organization</p>
+                <button type="button" data-toggle="modal" data-target="#registerModal"
+                  class="text-uppercase">register</button>
+              </div>
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur Lorem.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet,
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur Lorem, ipsum.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+                <li>
+                  Lorem ipsum dolor sit consectetur
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </footer>
-      <!--footer end-->
-    </div>
-    <a href="#/index.html" class="scrollToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+      </div>
+    </section>
+    <!-- Pricing end -->
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery.min.js"></script>
+    <!-- faq strat -->
+    <section class="faq-sec">
+      <div class="container" style="padding-bottom: 65px!important;">
+        <!-- 1st row -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="membership-page-title text-center">
+              <h1>frequently ask questions
+                <hr>
+              </h1>
+              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            </div>
+          </div>
+        </div>
+        <!-- 1st row -->
+        <!-- 2nd row -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="faq">
+              <!-- faq start -->
+              <div class="accordian">
+                <div class="card">
+                  <div class="card-header">
+                    <h3>What is Lorem Ipsum? </h3>
+                    <span class="fa fa-minus"></span>
+                  </div>
+                  <div class="card-body active">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
+                      amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  </div>
+                </div>
 
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+                <div class="card">
+                  <div class="card-header">
+                    <h3>Where does it come from? </h3>
+                    <span class="fa fa-plus"></span>
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
+                      amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <h3>Where can I get some? </h3>
+                    <span class="fa fa-plus"></span>
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
+                      amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  </div>
+                </div>
+              </div>
+              <!-- faq end -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="faq">
+              <!-- faq start -->
+              <div class="accordian">
+                <div class="card card_two">
+                  <div class="card-header">
+                    <h3>What is Lorem Ipsum? </h3>
+                    <span class="fa fa-plus"></span>
+                  </div>
+                  <div class="card-body active">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
+                      amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  </div>
+                </div>
 
-    <!-- scroll_to_top -->
-    <script src="assets/js/ScrollToPlugin.min.js"></script>
+                <div class="card card_two">
+                  <div class="card-header">
+                    <h3>Where does it come from? </h3>
+                    <span class="fa fa-plus"></span>
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
+                      amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  </div>
+                </div>
+                <div class="card card_two">
+                  <div class="card-header">
+                    <h3>Where can I get some? </h3>
+                    <span class="fa fa-plus"></span>
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit
+                      amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                  </div>
+                </div>
+              </div>
+              <!-- faq end -->
+            </div>
+          </div>
+        </div>
+        <!-- 2nd row -->
+      </div>
+    </section>
+    <!-- faq end -->
+    <!--footer start-->
+    <footer class="main-footer">
+      <div class="footer">
+        <div class="container">
+          <div class="slide-top footer-logo"> <a href="index.html">
+              <h2 class="logo_name">GYM <span class="white_text">FIT </span> </h2>
+            </a> </div>
+          <div class="slide-bottom footer-menu">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="courses.html">COURSES</a></li>
+              <li><a href="shedule.html">schedule </a></li>
+              <li><a href="blogpage.html">Blog</a></li>
+              <li><a href="contact.html">contact us</a></li>
+            </ul>
+          </div>
+          <div class="slide-bottom footer-mail">
+            <form>
+              <input type="email" name="mail" required placeholder="ENTER YOUR EMAIL">
+              <input name="submit" class="submit_icon" type="submit" value>
+            </form>
+          </div>
+          <div class="slide-bottom social footer-social"> <span>Follow us on</span>
+            <ul>
+              <li class="faebook"><a href="javascript:void(0);/index.html" target="_blank"><i
+                    class="fa fa-facebook"></i></a></li>
+              <li class="twitter"><a href="javascript:void(0);/index.html" target="_blank"><i class="fa fa-twitter"
+                    aria-hidden="true"></i></a></li>
+              <li class="insta"><a href="javascript:void(0);/index.html" target="_blank"><i
+                    class="fa fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="slide-bottom copyright-text">
+            <p>© All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer end-->
+  </div>
+  <a href="#/index.html" class="scrollToTop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 
-    <!-- classes_portfolio -->
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!-- jQuery -->
+  <script src="assets/js/jquery.min.js"></script>
 
-    <!-- carousel slider -->
-    <script src="assets/js/owl.carousel.js"></script>
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
 
-    <!-- blog -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- scroll_to_top -->
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
 
-    <!-- classes_portfolio -->
-    <script src="assets/js/jquery.bxslider.min.js"></script>
+  <!-- classes_portfolio -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-    <!-- wow -->
-    <script src="assets/js/wow.min.js"></script>
+  <!-- carousel slider -->
+  <script src="assets/js/owl.carousel.js"></script>
 
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
-    <script>
-          $(document).ready(function ()
-          {
-            $(".card-header").click(function ()
-            {
-          // self clicking close
-            if ($(this).next(".card-body").hasClass("active"))
-            {
-              $(this).next(".card-body").removeClass("active").slideUp()
-              $(this).children("span").removeClass("fa-minus").addClass("fa-plus")
-            }
-            else
-            {
-              $(".card .card-body").removeClass("active").slideUp()
-              $(".card .card-header span").removeClass("fa-minus").addClass("fa-plus");
-              $(this).next(".card-body").addClass("active").slideDown()
-              $(this).children("span").removeClass("fa-plus").addClass("fa-minus")
-            }
-          })
-        })
+  <!-- blog -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
 
-</script>
+  <!-- classes_portfolio -->
+  <script src="assets/js/jquery.bxslider.min.js"></script>
 
-  </body>
+  <!-- wow -->
+  <script src="assets/js/wow.min.js"></script>
+
+  <!-- Global Init -->
+  <script src="assets/js/custom.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".card-header").click(function () {
+        // self clicking close
+        if ($(this).next(".card-body").hasClass("active")) {
+          $(this).next(".card-body").removeClass("active").slideUp()
+          $(this).children("span").removeClass("fa-minus").addClass("fa-plus")
+        }
+        else {
+          $(".card .card-body").removeClass("active").slideUp()
+          $(".card .card-header span").removeClass("fa-minus").addClass("fa-plus");
+          $(this).next(".card-body").addClass("active").slideDown()
+          $(this).children("span").removeClass("fa-plus").addClass("fa-minus")
+        }
+      })
+    })
+
+  </script>
+
+</body>
 
 </html>

@@ -1536,6 +1536,10 @@ Pricing section End
 	flex-direction: row;
 	justify-content: center;
 	height: 100%;
+	width: 100%;
+}
+.pricing_container .col-md-4{
+	width: 100%;
 }
 .pricing_container .secondCard {
 	margin-left: 18px;
@@ -1568,19 +1572,20 @@ Pricing section End
 .pricing-single-box {
 	color: #fff;
 	margin: 22px 0;
-	max-width: 400px;
+	/* max-width: 400px; */
+	width: 100%;
 	border-radius: 4px;
-	min-height: 600px;
+	min-height: 778px;
 }
 
 .pricing-single-box h5 {
 	font-weight: 600;
-	font-size: 1.6rem;
+	font-size: 2rem;
 }
 
 .pricing-single-box .pricing-single-box-header {
 	background-color: #000;
-    padding: 32px 10px;
+    padding: 35px 10px;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	text-align: center;
@@ -1589,15 +1594,15 @@ Pricing section End
 .pricing-single-box .pricing-single-box-header button {
 	padding: 0.3rem 2.2rem;
 	border: none;
-	border-radius: 3px;
+	border-radius: 5px;
 	background-color: red;
 	font-weight: 600;
 }
 
 .pricing-single-box h4 {
     /* text-transform: uppercase;
-    font-weight: 700;
-    font-size: 35px; */
+    font-weight: 700; */
+    font-size: 2.5rem;
     margin-bottom: 25px;
 	color: #fff;
 	font-weight: 550;
@@ -1641,6 +1646,18 @@ Pricing section End
 }
 
 @media screen and (max-width: 768px) {
+.pricing-single-box .pricing-single-box-header {
+    padding: 28px 10px;
+ }
+	.pricing-single-box h4 {
+		font-size: 1.8rem;
+	}
+	.pricing-single-box h5 {
+		font-size: 1.6rem;
+	}
+.pricing-single-box .pricing-single-box-header button {
+font-size: 1.4rem;
+ }
 	.pricing_container{	
 		display: flex;
 		flex-direction: column;
@@ -1930,7 +1947,8 @@ Pricing section End
     color: #fff;
     /* padding: 40px; */
 	margin: 22px 0;
-	max-width: 400px;
+	/* max-width: 400px; */
+	width: 100%;
 	box-shadow: 1px 1px 8px #ccc;
 	border-radius: 5px;
 }
@@ -4460,7 +4478,7 @@ trainer_page
     .trainer-container{
  
   grid-template-columns: repeat(2, 250px);
- /* grid-template-rows: repeat(5, 220px);*/
+ /* grid-template-rows: repeat(5, 220px);*/	
   margin: 0 auto;
 
     }
