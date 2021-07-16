@@ -1754,6 +1754,13 @@ section.faq-sec {
 	margin:0px;
 }
 
+@media screen and (max-width: 575px) {
+	.accordian .card .card-header span{ 
+	right:5px;
+
+	}
+}
+
 
 /*-------------------------------------------
 Pricing section End   */
